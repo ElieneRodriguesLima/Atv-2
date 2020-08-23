@@ -1,0 +1,8 @@
+quarta = int(input("Escreva um tempo de duração do evento em uma fábrica: "))
+dias = quarta // 86400
+segundos = quarta % 86400
+horas = segundos // 3600
+segundos = segundos % 3600
+minutos = segundos // 60
+segundos = segundos % 60
+print(f'O valor informado corresponde em horas {horas}:{minutos}:{segundos}')
